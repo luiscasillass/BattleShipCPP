@@ -1,0 +1,35 @@
+
+# BattleShipCPP - Project Overview
+
+## Introduction
+BattleShipCPP is a C++ implementation of the classic Battleship game, a strategic game where players aim to sink each other's fleet of ships. The game is set on a 5x5 grid, and players take turns guessing the locations of the opponent's ships, aiming to hit and sink all ships before their own fleet is destroyed.
+
+## Gameplay Mechanics
+- **Grid Setup:** The game is played on a 5x5 grid. Each player positions their ships on the board, which the opponent cannot see.
+- **Turn-Based Play:** Players take turns guessing the coordinates where they believe an enemy ship might be located. If the guess is correct, the ship is hit; otherwise, the guess results in a miss.
+- **Ship Sinking:** When all parts of a ship have been hit, the ship is considered sunk. The player who sinks all of the opponent's ships first wins the game.
+- **Random Placement:** Ships can be randomly placed on the board for quick setup, adding an element of unpredictability.
+
+## Technical Details
+- **Language:** C++
+- **Key Features:** The program uses object-oriented programming principles, with classes representing ships and the game board. The game logic includes hit detection, ship status checks, and game termination conditions.
+- **Platform:** The game is designed to be run in a terminal or command-line interface.
+
+## How to Play
+1. Compile the `PROYECTO_INTEGRADOR_CODE.cpp` file using a C++ compiler.
+2. Run the compiled executable in your terminal.
+3. Follow the prompts to position your ships and take turns guessing the opponent's ship locations.
+4. Continue until one player successfully sinks all of the opponent's ships.
+
+## Future Enhancements
+- **AI Opponent:** Introduce an AI opponent to allow single-player gameplay.
+- **Expanded Grid Size:** Add the option to play on larger grids for increased difficulty.
+- **Multiple Ships:** Introduce different types of ships with varying sizes and hit points.
+
+## Contribution
+Contributions are welcome! Whether it’s adding new features, improving existing ones, or fixing bugs, feel free to fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+Enjoy the game and happy ship hunting!
