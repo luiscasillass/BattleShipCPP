@@ -30,6 +30,7 @@ private:
     mutable bool hundido; // Marcar como mutable para permitir modificaciones en método const
 };
 
+// Contruccion del tablero de juego
 class Tablero {
 public:
     // Constructor de la clase Tablero
